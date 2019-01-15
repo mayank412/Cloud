@@ -25,3 +25,10 @@ git branch
 To delete branch(Local) go to master : git checkout master
 Delete branch(local) : git branch -D HelloWorldJava
 git branch
+
+Checkin Changes:
+----------------
+git add .
+git status
+git commit -m "File updated"
+git push origin gs-spring-boot-docker
