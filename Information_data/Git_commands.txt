@@ -1,0 +1,18 @@
+User : mayank412
+Password : Latitude@5450
+
+Git repository URL: https://github.com/mayank412/Cloud.git
+Repository local folder : G:\Learning\Cloud
+
+Commands:
+----------
+git clone https://github.com/mayank412/Cloud.git
+cd Cloud/
+Create new branch(local) : git checkout -b gs-spring-boot-docker
+Push branch in repository : git push origin gs-spring-boot-docker
+Chaeck all branches in repository : git branch
+Create project : copy complete existing project folder in "/g/Learning/Cloud (gs-spring-boot-docker)"
+Add Project : git add spring-boot-docker/
+Check status : git status
+Commit project : git commit -m "checkin spring boot application with docker file"
+Push all files : git push origin gs-spring-boot-docker
