@@ -16,3 +16,12 @@ Add Project : git add spring-boot-docker/
 Check status : git status
 Commit project : git commit -m "checkin spring boot application with docker file"
 Push all files : git push origin gs-spring-boot-docker
+
+Delete branch:
+---------------
+To delete branch switch to that branch :  git checkout HelloWorldJava
+Delete Branch(Remote) : git push origin --delete HelloWorldJava
+git branch
+To delete branch(Local) go to master : git checkout master
+Delete branch(local) : git branch -D HelloWorldJava
+git branch
