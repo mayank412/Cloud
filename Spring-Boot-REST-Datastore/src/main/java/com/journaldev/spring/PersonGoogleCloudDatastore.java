@@ -1,4 +1,4 @@
-package com.learning.datastore;
+package com.journaldev.spring;
 
 import java.util.ArrayList;
 import java.util.Iterator;

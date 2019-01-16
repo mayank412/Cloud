@@ -1,24 +1,19 @@
-package com.learning.controller;
+package com.journaldev.spring;
 
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.learning.datastore.PersonGoogleCloudDatastore;
-import com.learning.model.Person;
-
 @RestController
 public class PersonController {
 	
 	public Logger logger = Logger.getLogger(PersonController.class);
 
-	@Autowired
 	private PersonGoogleCloudDatastore dataStore;
 	
 	@RequestMapping("/")
