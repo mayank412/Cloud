@@ -27,6 +27,11 @@ public class PersonGoogleCloudDatastore {
 
   // Create a Key factory to construct keys associated with this project.
   private final KeyFactory keyFactory = datastore.newKeyFactory().setKind("Person");
+
+  public PersonGoogleCloudDatastore() {
+	  
+  }
+
   // [END datastore_build_service]
 
   // [START datastore_add_entity]
@@ -80,7 +85,7 @@ public class PersonGoogleCloudDatastore {
    */
   public Iterator<Entity> listPersons() {
     Query<Entity> query =
-        Query.newEntityQueryBuilder().setKind("Person").setOrderBy(OrderBy.asc("created")).build();
+        Query.newEntityQueryBuilder().setKind("Person").build();
     return datastore.run(query);
   }
   // [END datastore_retrieve_entities]
