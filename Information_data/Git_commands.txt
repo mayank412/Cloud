@@ -17,6 +17,8 @@ Check status : git status
 Commit project : git commit -m "checkin spring boot application with docker file"
 Push all files : git push origin gs-spring-boot-docker
 
+git pull origin gs-spring-boot-docker
+
 Delete branch:
 ---------------
 To delete branch switch to that branch :  git checkout HelloWorldJava
