@@ -17,6 +17,8 @@ public class PersonController {
 
         private PersonGoogleCloudDatastore dataStore = new PersonGoogleCloudDatastore();
 	
+	public PersonController() {
+	}
 	@RequestMapping("/")
 	public String healthCheck() {
 		return "OK";
