@@ -50,6 +50,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+           		 <groupId>com.google.cloud.sql</groupId>
+           		 <artifactId>mysql-socket-factory</artifactId>
+           		 <version>1.0.11</version>
+       		 </dependency>        
 	</dependencies>
 
 	<build>
@@ -57,9 +62,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<finalName>users-mysql</finalName>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>

@@ -1,0 +1,1 @@
+jdbcUrl=====>jdbc:mysql://google/mysql?cloudSqlInstance=my-project-b8849:us-central1:mysql-cloud&socketFactory=com.google.cloud.sql.mysql.SocketFactory
